@@ -2,7 +2,9 @@
 
 ![Section of an ancient Egyptian papyrus with hieratic writing. Some characters and character groups are annotated with colourful polygonal bounding structures. The corresponding class labels have been printed on top in white, labels like "G7" or "Q3" or "Wr".](./imgs/polygons.jpg)
 
-This respository contains code and supplementary material for the paper "DDD - A Diagnostic Dataset for Character Recognition and Detection on Ancient Egyptian Hieratic Characters and Words", presented at the International Conference on Document Analayis and Recognition (ICDAR) 2026 and provides first baselines for the recognition and detection of ancient Egyptian hieratic characters for the [Diagnostic Deir el-Medina Dataset (DDD)](https://doi.org/10.5281/zenodo.20553713).
+This respository contains code and supplementary material for the paper "DDD - A Diagnostic Dataset for Character Recognition and Detection on Ancient Egyptian Hieratic Characters and Words", presented at the International Conference on Document Analayis and Recognition (ICDAR) 2026. Here, we provide first baselines for the recognition and detection of ancient Egyptian hieratic characters for the [Diagnostic Deir el-Medina Dataset (DDD)](https://doi.org/10.5281/zenodo.20553713), created by the [Crossing Boundaries](http://web.philo.ulg.ac.be/x-bound/) project (2019-2023).
+
+The main focus of this work is to present this new dataset on hieratic writing from a document analysis perspective. Main challenges are the scarce data, the imbalanced distribution of class labels and the partial annotation. The dataset contains labels for single characters, small groups of up to three or four characters, and words.
 
 
 ## Content
@@ -46,7 +48,7 @@ If you would like to cite this work, please use:
 }
 ```
 
-For the dataset, please cite:
+For the [dataset](https://doi.org/10.5281/zenodo.20553713), please cite:
 
 ```bibtex
 @misc{DDD,
